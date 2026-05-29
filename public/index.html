@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homemart - Shared Household Grocery List</title>
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- Header App Bar -->
+    <header class="app-header">
+      <div class="header-container">
+        <div class="logo-section">
+          <div class="logo-icon">🥕</div>
+          <div class="logo-text">
+            <h1>Homemart</h1>
+            <span>Grocery List</span>
+          </div>
+        </div>
+
+        <!-- Middle Search Bar -->
+        <div class="search-section">
+          <div class="search-wrapper">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="search-input" placeholder="Search Atta, Milk, Maggi, Fresh Veggies...">
+          </div>
+        </div>
+
+        <!-- Right Profile & Status Section -->
+        <div class="user-status-section">
+          <!-- Connectivity Badge -->
+          <div id="connection-badge" class="connection-badge status-local">
+            <span class="status-dot"></span>
+            <span id="status-text">Local Mode</span>
+          </div>
+
+          <!-- User Selector -->
+          <div class="member-selector-wrapper">
+            <label for="member-select">🛒 Shopping As:</label>
+            <div class="custom-select">
+              <select id="member-select">
+                <option value="Jainy">👩 Jainy</option>
+                <option value="Skaria">👨 Skaria</option>
+                <option value="Alwin">👦 Alwin</option>
+                <option value="Chinnu">👧 Chinnu</option>
+                <option value="Guest">👤 Guest</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Layout (2 Columns) -->
+    <main class="main-container">
+
+      <!-- Left: Dynamic Catalog (Category Grid OR Category Products) -->
+      <section class="catalog-section" id="catalog-panel">
+        <!-- Dynamically rendered via JS: Category Selection Grid OR Product Catalog Grid -->
+      </section>
+
+      <!-- Right: Shared Cart Checklist -->
+      <aside class="cart-section">
+        <div class="cart-card">
+          <div class="cart-header">
+            <div class="cart-title-section">
+              <h3>Shopping List</h3>
+              <span id="cart-badge" class="cart-badge">0</span>
+            </div>
+            <button id="btn-clear-cart" class="btn-text" title="Clear Shopping List">🧹 Clear</button>
+          </div>
+
+          <!-- Empty Cart State -->
+          <div id="cart-empty-state" class="cart-empty-state">
+            <div class="empty-icon">📝</div>
+            <h4>Your shopping list is empty</h4>
+            <p>Tap items from the categories, or add custom items, to collaborate with your family in real-time!</p>
+          </div>
+
+          <!-- Active Cart Items Container -->
+          <div id="cart-content" class="cart-content hidden">
+            <!-- Active list -->
+            <div class="cart-group-title">Active Shopping List</div>
+            <div id="active-list" class="cart-items-list">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Recently Checked / Bought items -->
+            <div id="bought-group" class="bought-group hidden">
+              <div class="cart-group-title collapsible-header" id="btn-toggle-bought">
+                <span>Bought Items (<span id="bought-count">0</span>)</span>
+                <span class="collapse-arrow">▼</span>
+              </div>
+              <div id="bought-list" class="cart-items-list bought-items-list">
+                <!-- Dynamically populated -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Cart Footer -->
+          <div class="cart-footer">
+            <div class="summary-row">
+              <span>Estimated Total</span>
+              <span id="cart-total" class="total-price">₹0</span>
+            </div>
+            <button id="btn-complete-shopping" class="btn-primary btn-block">
+              <span>✅ Complete Shopping</span>
+            </button>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <!-- Modal: Custom Item Adder -->
+    <div id="custom-item-modal" class="modal-overlay hidden">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3 id="modal-title-text">Add Custom Item</h3>
+          <button id="btn-close-modal" class="modal-close">&times;</button>
+        </div>
+        <form id="custom-item-form" class="modal-body">
+          <div class="form-group">
+            <label for="custom-name">Item Name*</label>
+            <input type="text" id="custom-name" placeholder="e.g., Coriander Powder, Paneer, Rusk Biscuits" required>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="custom-category">Category</label>
+              <select id="custom-category">
+                <option value="atta-dal">🌾 Flours and Pulses</option>
+                <option value="fruits-veg">🥦 Fruits and Vegetables</option>
+                <option value="dairy-bread">🥛 Dairy and Bread</option>
+                <option value="munchies">🍪 Munchies and Snacks</option>
+                <option value="beverages">🥤 Juices and Drinks</option>
+                <option value="instant">🍜 Instant Foods</option>
+                <option value="household">🪔 Household</option>
+                <option value="spices">🌶️ Spices & Masalas</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="custom-unit">Unit / Qty Description</label>
+              <input type="text" id="custom-unit" placeholder="e.g., 500g, 1 kg, 1 packet">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="custom-price">Approx Price (₹)</label>
+              <input type="number" id="custom-price" step="1" min="0" placeholder="0" value="0">
+            </div>
+            <div class="form-group">
+              <label for="custom-emoji">Select Emoji</label>
+              <input type="text" id="custom-emoji" placeholder="🛒" value="🛒"
+                style="font-size: 1.2rem; text-align: center;">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Choose Label Color</label>
+            <div class="color-options-grid">
+              <label class="color-option" style="background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%);">
+                <input type="radio" name="custom-color" value="linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)"
+                  checked>
+                <span></span>
+              </label>
+              <label class="color-option" style="background: linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%);">
+                <input type="radio" name="custom-color" value="linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)">
+                <span></span>
+              </label>
+              <label class="color-option" style="background: linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%);">
+                <input type="radio" name="custom-color" value="linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)">
+                <span></span>
+              </label>
+              <label class="color-option" style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);">
+                <input type="radio" name="custom-color" value="linear-gradient(135deg, #f6d365 0%, #fda085 100%)">
+                <span></span>
+              </label>
+              <label class="color-option" style="background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);">
+                <input type="radio" name="custom-color" value="linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)">
+                <span></span>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" id="custom-submit-btn" class="btn-primary btn-block">Add to Shared List</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Notification Banner -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Confetti Canvas (For completion celebration!) -->
+    <canvas id="confetti-canvas"></canvas>
+
+    <script src="app.js"></script>
+  </body>
+
+</html>

@@ -1,0 +1,602 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Nirmal Rice",
+    "category": "atta-dal",
+    "price": 0,
+    "unit": "5 kg",
+    "emoji": "🌾",
+    "bgGradient": "linear-gradient(135deg, #f6d365 0%, #fda085 100%)",
+    "description": "High-quality traditional white rice."
+  },
+  {
+    "id": "prod-2",
+    "name": "Milk",
+    "category": "dairy-bread",
+    "price": 0,
+    "unit": "100g",
+    "emoji": "🥛",
+    "bgGradient": "linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%)",
+    "description": "Fresh and nutritious farm milk."
+  },
+  {
+    "id": "prod-3",
+    "name": "Curd",
+    "category": "dairy-bread",
+    "price": 0,
+    "unit": "500ml",
+    "emoji": "🥛",
+    "bgGradient": "linear-gradient(135deg, #e0c3fc 0%, #8ec5fc 100%)",
+    "description": "Fresh, pasteurized curd."
+  },
+  {
+    "id": "prod-5",
+    "name": "Rusk",
+    "category": "munchies",
+    "price": 0,
+    "unit": "1",
+    "emoji": "🍞",
+    "bgGradient": "linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%)",
+    "description": "Double-baked tea rusks."
+  },
+  {
+    "id": "prod-6",
+    "name": "Rava",
+    "category": "atta-dal",
+    "price": 0,
+    "unit": "1kg",
+    "emoji": "🌾",
+    "bgGradient": "linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%)",
+    "description": "Pre-roasted wheat semolina."
+  },
+  {
+    "id": "prod-7",
+    "name": "Guava Juice",
+    "category": "beverages",
+    "price": 0,
+    "unit": "1",
+    "emoji": "🥤",
+    "bgGradient": "linear-gradient(135deg, #fddb92 0%, #d1fdff 100%)",
+    "description": "Refreshing guava fruit juice."
+  },
+  {
+    "id": "prod-8",
+    "name": "Apple",
+    "category": "fruits-veg",
+    "price": 0,
+    "unit": "1kg",
+    "emoji": "🍎",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Sweet and crunchy red apples."
+  },
+  {
+    "id": "prod-9",
+    "name": "Carrot",
+    "category": "fruits-veg",
+    "price": 0,
+    "unit": "1kg",
+    "emoji": "🥕",
+    "bgGradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+    "description": "Fresh and sweet organic carrots."
+  },
+  {
+    "id": "prod-10",
+    "name": "Himalaya Soap",
+    "category": "household",
+    "price": 0,
+    "unit": "1",
+    "emoji": "🧼",
+    "bgGradient": "linear-gradient(135deg, #84fab0 0%, #8fd3f4 100%)",
+    "description": "Gentle herbal cleansing soap."
+  },
+  {
+    "id": "prod-11",
+    "name": "Choolu",
+    "category": "household",
+    "price": 80,
+    "unit": "1",
+    "emoji": "🧹",
+    "bgGradient": "linear-gradient(135deg, #fff1eb 0%, #ace0f9 100%)",
+    "description": "Traditional cleaning broom."
+  },
+  {
+    "id": "prod-1780046323917",
+    "name": "Maida",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046357719",
+    "name": "Pachari",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046367356",
+    "name": "Pachari Podippikkan",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046386921",
+    "name": "Uzhunn",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046398992",
+    "name": "Kadala(Black)",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046412493",
+    "name": "Kadala(White)",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046423991",
+    "name": "Paripp",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046432106",
+    "name": "Vannpayar",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046437655",
+    "name": "Cherupayar",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046464820",
+    "name": "Pomgranate",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046474212",
+    "name": "Orange",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046479907",
+    "name": "Pazham",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046485203",
+    "name": "Ethakka",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046493586",
+    "name": "Watermelon",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046507367",
+    "name": "Musk Melon",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046513403",
+    "name": "Payar",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046519321",
+    "name": "Vendekka",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046522727",
+    "name": "Tomato",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046527298",
+    "name": "Onion",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046534392",
+    "name": "Capsicum",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046541424",
+    "name": "Veluttulli",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046546825",
+    "name": "Inchi",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046553840",
+    "name": "Beetroot",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046559002",
+    "name": "Beans",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046563627",
+    "name": "Cabbage",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046570507",
+    "name": "Cauliflower",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046583597",
+    "name": "Vazhutana",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046589747",
+    "name": "Cucumber",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046606342",
+    "name": "Grapes",
+    "category": "fruits-veg",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046618541",
+    "name": "Bread",
+    "category": "dairy-bread",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046622260",
+    "name": "Bun",
+    "category": "dairy-bread",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046646593",
+    "name": "Soya",
+    "category": "atta-dal",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046656224",
+    "name": "Buiscuit",
+    "category": "munchies",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046662340",
+    "name": "Sugar free",
+    "category": "munchies",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046683888",
+    "name": "Noodles- Maggi",
+    "category": "instant",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Updated by Jainy"
+  },
+  {
+    "id": "prod-1780046700631",
+    "name": "Indomie",
+    "category": "instant",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046714959",
+    "name": "Sausage",
+    "category": "instant",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046730017",
+    "name": "Paste-big",
+    "category": "household",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046737024",
+    "name": "Paste- Small",
+    "category": "household",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046743893",
+    "name": "Sensodin",
+    "category": "household",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046755856",
+    "name": "Dove soap/bodywash",
+    "category": "household",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046765576",
+    "name": "Brush",
+    "category": "household",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046786937",
+    "name": "Chilli Powder",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046796659",
+    "name": "Garam Masala",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046805276",
+    "name": "Turmeric Powder",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046815342",
+    "name": "Salt Powder",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046820642",
+    "name": "Rock Salt",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046827761",
+    "name": "Mallipodi",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046836505",
+    "name": "Pepper Powder",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  },
+  {
+    "id": "prod-1780046844530",
+    "name": "Geerakam",
+    "category": "spices",
+    "price": 0.0,
+    "unit": "1 unit",
+    "emoji": "🛒",
+    "bgGradient": "linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%)",
+    "description": "Custom item added by Jainy"
+  }
+]
